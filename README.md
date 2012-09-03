@@ -21,15 +21,15 @@ You should then open your `Preferences -> Keybindings - User` and add the key bi
 
 The simple option is to allow this command in any file.
 
-`
+```javascript
 [
   { "keys": ["ctrl+shift+."], "command": "erb" }
 ]
-`
+```
 
 However if you're like me you may want to restrict the key binding to those files where it makes sense to have that command. (Note the added text.html.eco at the end of the string)
 
-`
+```javascript
 [
   { "keys": ["ctrl+shift+."], "command": "erb", "context":
     [
