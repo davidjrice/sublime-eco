@@ -1,6 +1,6 @@
 Syntax highlighting for [Eco](http://github.com/sstephenson/eco) *Embedded CoffeeScript Templates* in [Sublime Text 2](http://www.sublimetext.com/)
 
-It is based on an edited version the [HTML (RAILS) Syntax](https://github.com/drnic/ruby-on-rails-tmbundle/blob/master/Syntaxes/HTML%20(Rails).plist) from the [rails textmate bundle](https://github.com/drnic/ruby-on-rails-tmbundle).
+It is based on an edited version the HTML (RAILS) Syntax from the [rails textmate bundle](https://github.com/drnic/ruby-on-rails-tmbundle).
 
 ## Installation
 
@@ -10,6 +10,11 @@ It is based on an edited version the [HTML (RAILS) Syntax](https://github.com/dr
 
 * Hit `command+shift+p` and type `"Package Control: Add Repository"` and hit `return`
 * Enter `https://github.com/davidjrice/sublime-eco.git` in the sublime console that appears and hit `return`.
+
+  > The following instructions will be all that's necessary after sublime-eco is available through package control directly.
+
+* Hit `command+shift+p` and type `"Package Control: Install Package"` and hit `return`
+* Type "eco", select from the list and hit `return`
 
 ## Optional
 
