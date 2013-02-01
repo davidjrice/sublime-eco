@@ -49,7 +49,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.embedded.ruby</string>
+					<string>punctuation.section.embedded.coffee</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -64,13 +64,13 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.ruby</string>
+							<string>punctuation.definition.comment.coffee</string>
 						</dict>
 					</dict>
 					<key>match</key>
 					<string>(#).*?(?=-?%&gt;)</string>
 					<key>name</key>
-					<string>comment.line.number-sign.ruby</string>
+					<string>comment.line.number-sign.coffee</string>
 				</dict>
 				<dict>
 					<key>include</key>
