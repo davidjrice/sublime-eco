@@ -52,25 +52,34 @@
 					<string>punctuation.section.embedded.coffee</string>
 				</dict>
 			</dict>
+
 			<key>end</key>
 			<string>-?%&gt;</string>
+
 			<key>name</key>
-			<string>source.ruby.rails.embedded.html</string>
+			<string>source.coffee.embedded</string>
 			<key>patterns</key>
 			<array>
+				<dict>
+					<key>match</key>
+					<string>\b(end|else):?\b</string>
+					<key>name</key>
+					<string>keyword.control.eco</string>
+				</dict>
 				<dict>
 					<key>captures</key>
 					<dict>
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.coffee</string>
+							<string>source.coffee</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.control.eco</string>
 						</dict>
 					</dict>
-					<key>match</key>
-					<string>(#).*?(?=-?%&gt;)</string>
-					<key>name</key>
-					<string>comment.line.number-sign.coffee</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -78,6 +87,7 @@
 				</dict>
 			</array>
 		</dict>
+
 		<dict>
 			<key>include</key>
 			<string>text.html.basic</string>
