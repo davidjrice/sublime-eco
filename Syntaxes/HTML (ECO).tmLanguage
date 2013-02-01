@@ -74,7 +74,7 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>source.ruby.rails</string>
+					<string>source.coffee</string>
 				</dict>
 			</array>
 		</dict>
